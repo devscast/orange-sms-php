@@ -1,0 +1,33 @@
+{
+    "name": "devscast/orange-sms",
+    "description": "Orange SMS PHP SDK (unofficial)",
+    "type": "library",
+    "keywords": ["sms","orange sms", "sms marketing"],
+    "homepage": "https://github.com/devscast/orange-sms-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bernard-ng",
+            "email": "ngandubernard@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-client": "^5.1",
+        "webmozart/assert": "^1.9"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/devscast/orange-sms-php"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Devscast\\Orange\\Sms\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    }
+}
