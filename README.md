@@ -1,4 +1,4 @@
-# Orange Sms PHP SDK
+# [work in progress] Orange Sms PHP SDK
 An SMS API to simplify your life
 The Orange SMS API is ideal for all your applications.
 It allows you to quickly integrate the sending of SMS from our servers. 
